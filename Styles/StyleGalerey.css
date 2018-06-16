@@ -1,0 +1,308 @@
+.Container{
+	Width:100%;
+	background-color:#FF69B4;
+	Height:900px;
+}
+
+header{
+	Width:100%;
+	Height:150px;
+	border:solid 1px yellow;
+	background-image: url(http://pictar.ru/data/media/3/abstraction_pictar.ru__80_.jpg);
+}
+.HeadLogo{
+	width:347px;
+	Height:100px;
+	margin-left:40%;
+	background-image: url(../Images/Header/Logo.png);
+	background-repeat:repeat-x;
+}
+.Menu{
+	
+	margin-top:10px;
+	margin-left:35px;
+	Width:95%;
+	Height:35px;
+	border:solid 1px yellow;
+	background-image: url(http://newpackfon.ru/uploads/images/k/a/r/kartinki_krasivie_dlja_kollazha_7.jpg);
+}
+
+ul{
+	list-style:none;
+	height:32px;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.Button1 {
+	margin-left:120px;
+	margin-bottom:15px;
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/Home.png);
+	
+	display:inline-block;
+}
+.Button1:hover {
+	margin-left:120px;
+	
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/Home.png);
+	
+	display:inline-block;
+}
+.Button1:active{
+	margin-left:120px;
+	
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/Home.png);
+	
+	display:inline-block;
+}
+.Button2{
+	margin-left:120px;
+	background-repeat:repeat-x;
+	margin-bottom:10px;
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/News2.png);
+	display:inline-block;
+}
+.Button2:hover{
+	background-repeat:repeat-x;
+	margin-left:120px;
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/News.png);
+	display:inline-block;
+	cursor:pointer;
+}
+.Button2:active{
+	background-repeat:repeat-x;
+	margin-left:120px;
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/News3.png);
+	display:inline-block;
+	cursor:pointer;
+}
+.Button3{
+	margin-left:120px;
+	margin-bottom:10px;
+	height:30px;
+	width:177px;
+	background-image: url(../Images/Menu/Top2.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button3:hover{
+	margin-left:120px;
+	height:30px;
+	width:177px;
+	background-image: url(../Images/Menu/Top1.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button3:active{
+	margin-left:120px;
+	height:30px;
+	width:177px;
+	background-image: url(../Images/Menu/Top3.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button4{
+	margin-left:120px;
+	margin-bottom:10px;
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/galerey2.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button4:hover{
+	margin-left:120px;
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/galerey1.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button4:active{
+	margin-left:120px;
+	height:30px;
+	width:111px;
+	background-image: url(../Images/Menu/galerey3.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button5{
+	margin-left:120px;
+	margin-bottom:10px;
+	height:30px;
+	width:85px;
+	background-image: url(../Images/Menu/Tests1.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button5:hover{
+	margin-left:120px;
+	margin-bottom:10px;
+	height:30px;
+	width:85px;
+	background-image: url(../Images/Menu/Tests2.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+.Button5:active{
+	margin-left:120px;
+	margin-bottom:10px;
+	height:30px;
+	width:85px;
+	background-image: url(../Images/Menu/Tests3.png);
+	background-repeat:repeat-x;
+	display:inline-block;
+}
+
+.b1{
+	height:30px;
+	width:85px;
+}
+#b1{
+	height:30px;
+	width:85px;
+}
+.b2{
+	height:30px;
+	width:111px;
+}
+#b2{
+	height:30px;
+	width:111px;
+}
+.b3{
+	height:30px;
+	width:177px;
+}
+#b3{
+	height:30px;
+	width:177px;
+}
+.b4{
+	height:30px;
+	width:111px;
+}
+#b4{
+	height:30px;
+	width:111px;
+}
+.b5{
+	height:30px;
+	width:85px;
+}
+#b5{
+	height:30px;
+	width:85px;
+}
+
+.Content{
+	margin-top:10px;
+	Width:70%;
+	Height:500px;
+	border:solid 1px yellow;
+	float:left;
+	background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/be917b26-eea9-4486-a380-a580af127569-channel_offline_image-1920x1080.jpg);
+}
+.infot{
+	margin-left:10px;
+}
+.infot2{
+	margin-left:10px;
+	Height:250px;
+	Width:40%;
+}
+.GoTwitch{
+	margin-left:30px;
+	height:30px;
+	Width:259px;
+	background-image: url(../Images/Content/Twitch.png);
+	cursor:pointer;
+}
+.GoTwitch:hover{
+	margin-left:30px;
+	height:30px;
+	Width:259px;
+	background-image: url(../Images/Content/Twitch.png);
+	cursor:pointer;
+}
+.GoTwitch:active{
+	margin-left:30px;
+	height:30px;
+	Width:259px;
+	background-image: url(../Images/Content/Twitch2.png);
+	cursor:pointer;
+}
+#GoTwitch{
+	height:30px;
+	Width:259px;
+}
+#sss{
+	height:30px;
+	Width:259px;
+}
+
+aside{
+	margin-left:60px;
+	margin-top:30px;
+	Width:20%;
+	Height:450px;
+	border:solid 1px yellow;
+	float:left;
+	background-image: url(https://st.depositphotos.com/2859315/3553/v/950/depositphotos_35534017-stock-illustration-violet-vector-merry-christmas-background.jpg);
+}
+.Aut{
+	color:blue;
+	text-align:center;
+}
+#Autt{
+	text-align:center;
+	margin-top:30px;
+	color:yellow;
+	font-size:24;
+}
+
+footer{
+	background-image: url(http://pictar.ru/data/media/3/abstraction_pictar.ru__80_.jpg);
+	margin-top:10px;
+	Width:100%;
+	Height:150px;
+	border:solid 1px yellow;
+	float:left;
+	clear:both;
+	
+}
+#FotText{
+	text-align:center;
+	color:red;
+}
+.LogosVK{
+	background-image: url(../Images/Footer/vk.png);
+	Width:50px;
+	Height:50px;
+	margin-left:45%;
+}
+.LogosVK:hover{
+	background-image: url(../Images/Footer/vk.png);
+	Width:50px;
+	Height:50px;
+	margin-left:45%;
+	cursor:pointer;
+}
+#VK{
+	Width:50px;
+	Height:50px;
+}
+
+
