@@ -236,6 +236,7 @@ ul{
 	Width:259px;
 	background-image: url(../Images/Content/Twitch.png);
 	cursor:pointer;
+	
 }
 .GoTwitch:active{
 	margin-left:30px;
@@ -243,6 +244,7 @@ ul{
 	Width:259px;
 	background-image: url(../Images/Content/Twitch2.png);
 	cursor:pointer;
+
 }
 #GoTwitch{
 	height:30px;
