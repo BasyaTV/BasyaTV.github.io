@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Какой ты овощ</title>
-<link rel="stylesheet" href="../Styles/StyleGalerey.css">
-<script></script>
+<link rel="stylesheet" href="../Styles/StyleTestOvosh.css">
+<script type="text/javascript" src="../Scripts/ScriptTest_ovosh.js"></script>
 </head>
 <body>
 <div class="Container" >
@@ -23,7 +23,61 @@
 
 </div>
 <div class="Content">
+<h2 class="TestText">Вопрос первый.Ты веган?</h2>
+<div class="TestVar">
+<input type="radio" onclick="V1_1()">Да</input><br>
+<input type="radio" onclick="V1_2()">Нет</input><br>
+<input type="radio" onclick="V1_3()">Я не ем мясо убитых животных.Какие же люди жестокие!Им что,огурчиков мало?</input><br>
+<input type="radio" onclick="V1_4()">Я же не долбаёб</input><br>
 
+<h2 class="TestText2">Вопрос второй.Какой у тебя рост?</h2>
+<input type="radio" onclick="V2_1()">Маленький</input><br>
+<input type="radio" onclick="V2_2()">Средний</input><br>
+<input type="radio" onclick="V2_3()">Выше среднего</input><br>
+<input type="radio" onclick="V2_4()">Нормальный</input><br>
+<h2 class="TestText2">Вопрос третий.У тебя есть какие то особенности?</h2>
+<input type="radio" onclick="V3_1()">Я обрикос , на зоне рос</input><br>
+<input type="radio" onclick="V3_2()">Нету.Я ничтожество ебаное</input><br>
+<input type="radio" onclick="V3_3()">У меня попка горькая</input><br>
+<input type="radio" onclick="V3_4()">Это моя личная жизнь.Отъебись</input><br>
+<h2 class="TestText2">Вопрос четвёртый.Ты работаешь?</h2>
+<input type="radio" onclick="V4_1()">Да</input><br>
+<input type="radio" onclick="V4_2()">Тебе какая разница?</input><br>
+<input type="radio" onclick="V4_3()">Нет</input><br>
+<input type="radio" onclick="V4_4()">Пропустим этот вопрос</input><br>
+<h2 class="TestText2">Вопрос пятый.Что ты выберешь?</h2>
+<input type="radio" onclick="V5_1()">Огурец</input><br>
+<input type="radio" onclick="V5_2()">Ананас</input><br>
+<input type="radio" onclick="V5_3()">Банан</input><br>
+<input type="radio" onclick="V5_4()">Берёза</input><br>
+<h2 class="TestText2">Вопрос шестой.Хоть ты лопни,хоть ты тресни?</h2>
+<input type="radio" onclick="V6_1()">Аниме на первом месте</input><br>
+<input type="radio" onclick="V6_2()">Шо?</input><br>
+<input type="radio" onclick="V6_3()">Но поешь сосиску в тесте</input><br>
+<input type="radio" onclick="V6_4()">Зачем?</input><br>
+<h2 class="TestText2">Вопрос седьмой.Тебе нравятся девочки??</h2>
+<input type="radio" onclick="V7_1()">Да</input><br>
+<input type="radio" onclick="V7_2()">Меня привлекает моё тело</input><br>
+<input type="radio" onclick="V7_3()">Мемес,сука.Всё из-за тебя</input><br>
+<input type="radio" onclick="V7_4()">Нет</input><br>
+<h2 class="TestText2">Вопрос восьмой.Выбери символы</h2>
+<input type="radio" onclick="V8_1()"><3</input><br>
+<input type="radio" onclick="V8_2()">=3</input><br>
+<input type="radio" onclick="V8_3()">(.) (.)</input><br>
+<input type="radio" onclick="V8_4()">Мы что блять в психолога и паиента играем?</input><br>
+<h2 class="TestText2">Вопрос девятый.Ты уже целовался(лась)??</h2>
+<input type="radio" onclick="V9_1()">Да</input><br>
+<input type="radio" onclick="V9_2()">Нет</input><br>
+<input type="radio" onclick="V9_3()">Да.Но мне не понравилось</input><br>
+<input type="radio" onclick="V9_4()">Да.Только с мамой.Только в щёчку</input><br>
+<h2 class="TestText2">Вопрос десятый.Сколько см у тебя писька??</h2>
+<input type="radio" onclick="V10_1()">Не знаю,не мерил(а)</input><br>
+<input type="radio" onclick="V10_2()">Больше 15см</input><br>
+<input type="radio" onclick="V10_3()">Меньше 10см</input><br>
+<input type="radio" onclick="V10_4()">Спроси у своей мамки</input><br>
+</div>
+<button class="bv1" onclick="result()">Узнать результат</button>
+<h3 id="result"></h3>
 </div>
 <aside>
 <h1 class="Aut">
