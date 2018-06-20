@@ -1,139 +1,149 @@
-var x=0 ;
+var a=0 ;
+var b=0 ;
+var c=0 ;
+var d=0 ;
+var e=0 ;
+var f=0 ;
+var g=0 ;
+var h=0 ;
+var i=0 ;
+var j=0 ;
 var result ;
 
+
 function V1_1 (){
-	x= x+1;
+	a= 1;
 }
 function V1_2 (){
-	x= x-1;
+	a= -1;
 }
 function V1_3 (){
-	x= x-1;
+	a= -1;
 }
 function V1_4 (){
-	x= x-5;
+	a= -1;
 }
 
 function V2_1 (){
-	x= x-1;
+	b= -1;
 }
 function V2_2 (){
-	x= x+1;
+	b= 1;
 }
 function V2_3 (){
-	x= x+1;
+	b= 1;
 }
 function V2_4 (){
-	x= x-3;
+	b= -1;
 }
 
 function V3_1 (){
-	x= x-2;
+	c= -1;
 }
 function V3_2 (){
-	x= x-1;
+	c= -1;
 }
 function V3_3 (){
-	x= x+1;
+	c= 1;
 }
 function V3_4 (){
-	x= x=1;
+	c= -1;
 }
 
 function V4_1 (){
-	x= x+1;
+	d= 1;
 }
 function V4_2 (){
-	x= x-1;
+	d= -1;
 }
 function V4_3 (){
-	x= x-2;
+	d= -1;
 }
 function V4_4 (){
-	x= x-4;
+	d= -1;
 }
 
 function V5_1 (){
-	x= x-1;
+	e= -1;
 }
 function V5_2 (){
-	x= x+1;
+	e= 1;
 }
 function V5_3 (){
-	x= x-3;
+	e= -1;
 }
 function V5_4 (){
-	x= x+5;
+	e= 1;
 }
 
 function V6_1 (){
-	x= x-5;
+	f= -1;
 }
 function V6_2 (){
-	x= x+1;
+	f= 1;
 }
 function V6_3 (){
-	x= x+2;
+	f= 1;
 }
 function V6_4 (){
-	x= x-4;
+	f= -1;
 }
 
 function V7_1 (){
-	x= x-1;
+	g= -1;
 }
 function V7_2 (){
-	x= x-5;
+	g= -1;
 }
 function V7_3 (){
-	x= x+5;
+	g= 1;
 }
 function V7_4 (){
-	x= x-1;
+	g= -1;
 }
 
 function V8_1 (){
-	x= x-1;
+	h= -1;
 }
 function V8_2 (){
-	x= x-3;
+	h= -1;
 }
 function V8_3 (){
-	x= x+2;
+	h= 1;
 }
 function V8_4 (){
-	x= x=1;
+	h= 1;
 }
 
 function V9_1 (){
-	x= x+1;
+	i= 1;
 }
 function V9_2 (){
-	x= x-1;
+	i= -1;
 }
 function V9_3 (){
-	x= x-2;
+	i= -1;
 }
 function V9_4 (){
-	x= x-4;
+	i= -1;
 }
 
 function V10_1 (){
-	x= x-1;
+	j= -1;
 }
 function V10_2 (){
-	x= x+2;
+	j= 1;
 }
 function V10_3 (){
-	x= x=2;
+	j= 1;
 }
 function V10_4 (){
-	x= x+5;
+	j= 1;
 }
 
 function result(){
-	
+	var first = a + b + c + d + e + f + g + h + i + j;
 	result = document.getElementById('result');
-	result.innerHTML = 'Ты натурал(ка) на ' + x + '% из 10';
+	result.innerHTML = 'Ты натурал(ка) на ' + first + '% из 10';
 	
 }
