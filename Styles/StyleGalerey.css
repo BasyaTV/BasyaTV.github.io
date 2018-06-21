@@ -227,6 +227,7 @@ ul{
 	Height:150px;
 	border:solid 1px #FF69B4;
 	border-radius:50%;
+	background-image: url(../Images/Content/Games.png);
 }
 
 .BgGames:hover{
@@ -256,6 +257,7 @@ ul{
 	Height:150px;
 	border:solid 1px #FF69B4;
 	border-radius:50%;
+	background-image: url(../Images/Content/Memes.png);
 }
 
 .BgMemes:hover{

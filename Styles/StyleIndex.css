@@ -289,6 +289,19 @@ footer{
 	text-align:center;
 	color:red;
 }
+#Nahui{
+	Width:100%;
+	text-align:center;
+	color:blue;
+}
+
+#Nahui:hover{
+	Width:100%;
+	text-align:center;
+	color:red;
+	cursor:pointer;
+}
+
 .LogosVK{
 	background-image: url(../Images/Footer/vk.png);
 	Width:50px;
